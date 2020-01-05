@@ -16,7 +16,7 @@ for d in datas:
 	
 	title = d.split('"')[1]
 
-	iframe = '<iframe src="http://flashservice.xvideos.com/embedframe/%s" frameborder=0 width=510 height=400 scrolling=no></iframe>' % code
+	iframe = '' % code
 
 	# prepare metadata
 	data = {
